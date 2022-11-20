@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AgroTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_mpin">Enter Pin code</string>
+    <string name="exit">Exit</string>
+    <string name="biometricTitle">Biometric Authentication</string>
+    <string name="biometricSubtitle">Please Authentication</string>
+    <string name="biometricDescription">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">Error</string>
+    <string name="home">Home</string>
+    <string name="document">Document</string>
+    <string name="card">Card</string>
+    <string name="scan_document">Scan Document</string>
+</resources>

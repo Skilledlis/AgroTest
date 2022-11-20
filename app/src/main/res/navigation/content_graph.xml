@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.skilled.agrotest.content.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/documentScannerFragment"
+        android:name="com.skilled.agrotest.content.DocumentScannerFragment"
+        android:label="fragment_document_scanner"
+        tools:layout="@layout/fragment_document_scanner" />
+    <fragment
+        android:id="@+id/cardScannerFragment"
+        android:name="com.skilled.agrotest.content.CardScannerFragment"
+        android:label="fragment_card_scanner"
+        tools:layout="@layout/fragment_card_scanner" />
+</navigation>
